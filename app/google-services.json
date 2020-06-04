@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "301413616923",
+    "firebase_url": "https://traveldiaries-5aff9.firebaseio.com",
+    "project_id": "traveldiaries-5aff9",
+    "storage_bucket": "traveldiaries-5aff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301413616923:android:5e5452b776ebfaa83b97be",
+        "android_client_info": {
+          "package_name": "com.example.traveldiaries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301413616923-qio73f1fltgm2bvn4hi0m2cb8pfqgl73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfr-dRMneqb4kHMIc7Seibg-gSk15VHLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301413616923-qio73f1fltgm2bvn4hi0m2cb8pfqgl73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

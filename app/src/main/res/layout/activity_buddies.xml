@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Buddies">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/buddies_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp" />
+
+    <ListView
+        android:id="@+id/chat"
+        android:layout_width="401dp"
+        android:layout_height="638dp"
+        android:layout_below="@+id/buddies_list" >
+    </ListView>
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/chat"
+        android:layout_marginBottom="0dp"
+        />
+
+        <Button
+            android:id="@+id/send"
+            android:text="send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chat"
+            android:layout_alignBottom="@+id/data"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/data"
+            android:background="@color/buttoncolor"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

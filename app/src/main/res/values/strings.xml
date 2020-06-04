@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TravelDiaries</string>
+    <string name="signin">signin</string>
+    <string name="search">search</string>
+    <string name="travel_diaries">Travel Diaries</string>
+    <string name="signup">signup</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">username</string>
+    <string name="register">Register</string>
+    <string name="age">age</string>
+    <string name="password">password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="count">count</string>
+    <string name="profile">Profile</string>
+    <string name="email">email</string>
+    <string name="cancel">cancel</string>
+    <string name="notify">notify</string>
+    <string name="signout">signout</string>
+    <string name="buddies">Buddies</string>
+</resources>
