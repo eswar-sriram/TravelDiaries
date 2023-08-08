@@ -86,6 +86,7 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.ImageViewHolder> {
         this.context=context;
         this.uploads=up;
         //added comments
+        //added by branch
     }
     @NonNull
     @Override
