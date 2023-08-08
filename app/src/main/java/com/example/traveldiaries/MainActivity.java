@@ -82,9 +82,9 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.ImageViewHolder> {
     private Context context;
     private ArrayList<ArrayList<String>> uploads;
 
-    public MyAdapter(Context context,ArrayList<ArrayList<String>> uploads){
+    public MyAdapter(Context context,ArrayList<ArrayList<String>> up){
         this.context=context;
-        this.uploads=uploads;
+        this.uploads=up;
     }
     @NonNull
     @Override
