@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     ArrayList<ArrayList<String>> al;
     Button signin;
+    int a =10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
